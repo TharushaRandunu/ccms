@@ -1,0 +1,324 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #71f07e;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+    /*padding: 50px;*/
+    background-color: #ffffff;
+}
+
+.landing-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Login Page Styles */
+.login {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Register Page Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: Right;
+    justify-content: center;
+    height: 80vh;
+    border: 2px solid #0e0d0d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+.register {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.register h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.addUserimage {
+    display: block;
+    margin: 0 auto 20px auto;  /* Centers the image and adds space below it */
+    max-width: 50%;  /* Ensures the image scales within its container */
+    height: auto;
+}
+/* Shared Styles */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #1c9016;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;  /* Ensures the button takes the full width available */
+    margin: 0 auto;  /* Centers the button horizontally */
+    text-align: center;  /* Ensures text inside the button is centered */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: right;
+    background-color: #333;
+    padding: 5px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+.landing-content {
+    display: flex;
+    text-align: right;
+    margin-top: 10px;
+}
+.left-align-link {
+  display: block;
+  text-align: left;
+}
+
+.small-home-image {
+  width: 30px;
+  height: 30px;
+}
+
+.landing-content a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #f4f6f9;
+    font-size: 18px;
+}
+
+.landing-content a:hover {
+    color: #4fe84a
+}
+.landingData {
+  margin-top:150px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5; /* You can change this to your preferred background color */
+    margin-bottom: 200px;
+  }
+  
+  .landlogo {
+    margin-top:150px; 
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .company-name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #02380e;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+  }
+
+  /* Sections */
+.sections {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    justify-content: center; /* Centers the grid horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; 
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .weather-prediction {
+    
+    align-items: right;
+    background-color:#83ef8e;  /* Light blue background */
+  }
+  
+  .ground-search {
+    align-items: right;
+    background-color: #83ef8e;  /* Light green background */
+  }
+  
+  .booking-ground {
+    align-items: right;
+    background-color: #83ef8e;  /* Light orange background */
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+    margin-bottom: 1px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .message-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.message-box.success {
+    background-color: #4caf50; /* Green for success */
+}
+
+.message-box.error {
+    background-color: #f44336; /* Red for error */
+}
+
+/* Animation for fade-in effect */
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 0.9; }
+}
+
+/* SlideShow.css */
+.slideshow-container {
+  max-width: 1200px;
+  margin: 40px auto; /* Centers the slideshow horizontally and adds top/bottom margins */
+  position: relative; /* Allows positioning of navigation buttons */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+  position: relative;
+}
+
+.slides img {
+  width: 100%; /* Makes sure image scales to container width */
+  height: 500px; /* Sets a fixed height for the images */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+  display: block;
+  margin: 0 auto; /* Centers the image within the slides container */
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 3px;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,1);
+}
